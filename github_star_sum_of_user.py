@@ -38,8 +38,8 @@ while True:
             if (type(repo) != dict):
                 continue
             total_repo += 1
-            start = repo['stargazers_count']
-            total_star += start
+            star = repo['stargazers_count']
+            total_star += star
 
         if (len(repo_array) < PER_PAGE_REPO_MAX_COUNT):
             break
@@ -47,6 +47,6 @@ while True:
         cur_page += 1
 
 if (total_repo == 0 and total_star == 0):
-    print('=== %s，您的GitHub共有 0 个repo，0 个star (您的GitHub ID 敲错了？？) ===' % github_id)
+    print('=== %s，您的 GitHub 共有 0 个repo，0 个star (您的GitHub ID 敲错了？？) ===' % github_id)
 else:
-    print('=== %s，您的GitHub共有 %s 个repo，%s 个star ===' % (github_id, total_repo, total_star))
+    print('=== %s，您的 GitHub 共有 %s 个repo，%s 个star ===' % (github_id, total_repo, total_star))
