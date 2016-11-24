@@ -1,4 +1,4 @@
-# LxGitHubStartCounter
+# LxGitHubStarCounter
 Calculate user's total star.
 
 ## Usage
