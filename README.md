@@ -1,5 +1,5 @@
 # LxGitHubStartCounter
-Calculate user's total start.
+Calculate user's total star.
 
 ## Usage
 Run command as follows:
